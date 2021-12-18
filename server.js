@@ -1,12 +1,11 @@
-const express = require('express');
 const fs = require('fs');
 const path = require('path');
-const allNotes = require('./db/db.json');
-
-
-const app = express();
 const PORT = process.env.PORT || 3001;
 
+const express = require('express');
+const app = express();
+
+const allNotes = require('./db/db.json');
 
 
 // Add to its own folder/file down the road to clean up
