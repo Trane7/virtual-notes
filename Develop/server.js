@@ -10,7 +10,7 @@ const allNotes = require('./db/db.json');
 
 // Add to its own folder/file down the road to clean up
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static('public'));
+app.use(express.static(__dirname+ '/public'));
 app.use(express.json());
 
 
