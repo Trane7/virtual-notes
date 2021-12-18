@@ -19,7 +19,6 @@ app.get('/api/notes', (req, res) => {
     res.json(allNotes.slice(1));
 });
 
-//
 app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, './public/notes.html'));
 });
@@ -50,11 +49,12 @@ function createNewNote(body, notesArray) {
     return newNote;
 }
 
-
 app.post('/api/notes', (req, res) => {
     const newNote = createNewNote(req.body, allNotes);
     res.json(newNote);
 });
+
+
 
 // Delete notes function
 function deleteNote(id, notesArray) {
