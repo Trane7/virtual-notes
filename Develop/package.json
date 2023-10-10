@@ -2,7 +2,7 @@
   "name": "virtual-notes",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.html",
   "scripts": {
     "test": "test",
     "start": "node server.js",
