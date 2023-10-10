@@ -2,7 +2,7 @@
   "name": "virtual-notes",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "server.js",
   "scripts": {
     "test": "test",
     "start": "node server.js",
@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/Trane7/virtual-notes/issues"
   },
-  "homepage": "https://trane7.github.io//virtual-notes",
+  "homepage": "https://trane7.github.io/index.html",
   "dependencies": {
     "express": "^4.17.2"
   }
