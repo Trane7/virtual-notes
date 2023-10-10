@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/Trane7/virtual-notes/issues"
   },
-  "homepage": "https://github.com/Trane7/virtual-notes",
+  "homepage": "https://trane7.github.io//virtual-notes",
   "dependencies": {
     "express": "^4.17.2"
   }
